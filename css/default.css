@@ -1,0 +1,22 @@
+.listinfo{
+width: 100%;
+border-spacing: 30px;
+border-collapse: separate;
+}
+
+.listinfo #message, .listinfo #description{
+max-width: 100% !important;
+min-width: 100% !important;
+width: 100% !important;
+}
+
+.listinfo #message{
+height: 40px;
+}
+
+#codegenerator{
+max-width: 100% !important;
+min-width: 100% !important;
+width: 100% !important;
+height: 200px;
+}
