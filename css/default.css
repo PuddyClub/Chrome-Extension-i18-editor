@@ -20,3 +20,15 @@ min-width: 100% !important;
 width: 100% !important;
 height: 200px;
 }
+
+a:hover{
+text-decoration: none;
+}
+
+.page-header a{
+color: #555;
+}
+
+.page-header a:hover{
+color: #333;
+}
