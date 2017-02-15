@@ -32,3 +32,8 @@ color: #555;
 .page-header a:hover{
 color: #333;
 }
+
+.copyright{
+text-align: center;
+margin: 35px;
+}
