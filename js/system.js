@@ -120,7 +120,7 @@ $("#getcode").click(function(){
 
 var newjsonfilelang = JSON.stringify(languagecode);
 
-$("#codegenerator").text(newjsonfilelang.replace(/\}\,/g, "},\n").replace(/\"SPECIALMENU\"\:null\,/g, "").replace(/\,\"description\":\"\"/g, ""));
+$("#codegenerator").text(newjsonfilelang.replace(/\}\,\"/g, "},\n\"").replace(/\"SPECIALMENU\"\:null\,/g, "").replace(/\,\"description\":\"\"/g, ""));
 });
 
 }
